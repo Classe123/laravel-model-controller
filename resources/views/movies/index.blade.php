@@ -4,19 +4,20 @@
 
 @section('content')
 <main class="container">
-    <h1>All Books</h1>
-{{-- <ul> --}}
+    <h1>All Movies</h1>
     <div class="row">
-        @foreach ($books as $item)
+        @foreach ($movies as $item)
         <div class="col-12 col-md-4 col-lg-3">
             @include('partials.card')
         </div>
-        {{-- <li><a href="{{route('books.show', $book->id)}}">{{ $book->title }}</a></li> --}}
-
         @endforeach
     </div>
 
-{{-- </ul> --}}
+
+    {{-- <li><a href="{{route('movies.show', $movie->id)}}">{{ $movie->title }}</a></li> --}}
+
+
+</ul>
 
 </main>
 
