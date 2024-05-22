@@ -39,7 +39,7 @@ npm install --save @fortawesome/fontawesome-free
 #copio la cartella dei webfont e se voglio la rinomino
 
 #installo dbal per migration e seeder
-composer require doctrine/dbal:^3.3
+composer require doctrine/dbal
 
 
 #comandi git
